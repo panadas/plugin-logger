@@ -1,0 +1,33 @@
+{
+    "name": "panadas/plugin-logger",
+    "description": "Log messages from your appication.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Pancutt",
+            "email": "adam@panadas.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "monolog/monolog": "~1.0",
+        "panadas/framework": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.0",
+        "panadas/phpcs-standard": "~1.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Panadas\\LoggerPlugin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
+
