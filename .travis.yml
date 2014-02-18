@@ -9,3 +9,4 @@ before_script:
 script:
   - ./vendor/bin/phpunit
   - ./vendor/bin/phpcs --standard=./vendor/panadas/phpcs-standard/src/Panadas/ ./src
+  - ./vendor/bin/php-cs-fixer fix --dry-run --verbose --fixers=-psr0 ./src
