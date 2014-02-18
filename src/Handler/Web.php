@@ -2,11 +2,11 @@
 namespace Panadas\LoggerPlugin\Handler;
 
 use Monolog\Handler\AbstractProcessingHandler;
-use Panadas\EventModule\Event;
+use Panadas\Event\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\ApplicationAwareInterface;
 use Panadas\Framework\ApplicationAwareTrait;
-use Panadas\HttpMessageModule\HtmlResponse;
+use Panadas\HttpMessage\HtmlResponse;
 use Panadas\LoggerPlugin\DataStructure\Records;
 use Panadas\LoggerPlugin\Logger;
 use Panadas\LoggerPlugin\Formatter\Web as WebFormatter;
