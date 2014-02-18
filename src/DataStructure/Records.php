@@ -1,7 +1,7 @@
 <?php
-namespace Panadas\LoggerModule\DataStructure;
+namespace Panadas\LoggerPlugin\DataStructure;
 
-use Panadas\DataStructure\ArrayList;
+use Panadas\DataStructureModule\ArrayList;
 
 class Records extends ArrayList
 {

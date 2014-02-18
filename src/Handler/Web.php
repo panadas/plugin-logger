@@ -1,16 +1,16 @@
 <?php
-namespace Panadas\LoggerModule\Handler;
+namespace Panadas\LoggerPlugin\Handler;
 
 use Monolog\Handler\AbstractProcessingHandler;
-use Panadas\EventManager\Event;
-use Panadas\HttpMessage\HtmlResponse;
-use Panadas\LoggerModule\DataStructure\Records;
-use Panadas\LoggerModule\Logger;
-use Panadas\LoggerModule\Formatter\Web as WebFormatter;
-use Panadas\Util\Php;
+use Panadas\EventModule\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\ApplicationAwareInterface;
 use Panadas\Framework\ApplicationAwareTrait;
+use Panadas\HttpMessageModule\HtmlResponse;
+use Panadas\LoggerPlugin\DataStructure\Records;
+use Panadas\LoggerPlugin\Logger;
+use Panadas\LoggerPlugin\Formatter\Web as WebFormatter;
+use Panadas\Util\Php;
 
 class Web extends AbstractProcessingHandler implements ApplicationAwareInterface
 {

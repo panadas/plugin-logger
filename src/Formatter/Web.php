@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\LoggerModule\Formatter;
+namespace Panadas\LoggerPlugin\Formatter;
 
 use Monolog\Formatter\NormalizerFormatter;
 

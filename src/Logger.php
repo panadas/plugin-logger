@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\LoggerModule;
+namespace Panadas\LoggerPlugin;
 
 use Monolog\Logger as BaseLogger;
 use Panadas\Framework\Application;
