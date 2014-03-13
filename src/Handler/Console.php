@@ -242,7 +242,7 @@ class Console extends Publisher implements HandlerInterface, ApplicationAwareInt
             <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
             <script src="/js/panadas.js"></script>
             <script>
-                jQuery(function() {
+                jQuery(function () {
                     new panadas.console(jQuery, ' . json_encode($options). ');
                 });
             </script>
