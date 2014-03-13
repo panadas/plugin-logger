@@ -226,7 +226,8 @@ class Console extends Publisher implements HandlerInterface, ApplicationAwareInt
                 ->set("request", $request)
                 ->set("response", $response)
                 ->set(
-                    "options", (new ConsoleOptions())
+                    "options",
+                    (new ConsoleOptions())
                         ->set("selector", null)
                         ->set("timer", null)
                         ->set("panels", new ConsolePanels())
